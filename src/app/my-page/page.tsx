@@ -1,20 +1,20 @@
 import Link from "next/link";
-import styles from "./page.module.css";
+import styles from "../page.module.css";
 
-export default function Home() {
+export default function MyPage() {
   return (
     <div className={styles.page}>
       <main className={styles.main}>
         
         <div>
-          ----------------- Homepage -----------------
+          ----------------- MyPage -----------------
 
           <br />
           <br />
           <Link 
-            href="/my-page"
+            href="/"
             style={{textDecoration: 'underline'}}
-          >Go to MyPage &gt;</Link>
+          >&lt; Back to Home</Link>
         </div>
       </main>
     </div>
